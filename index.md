@@ -1,51 +1,123 @@
-# 自我介绍
+---
+layout: default
+---
 
-## 个人信息
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-- **姓名**: [你的名字]
-- **职业**: [你的职业]
-- **所在城市**: [你的城市]
+[Link to another page](./another-page.html).
 
-## 教育背景
+There should be whitespace between paragraphs.
 
-- **[你的学位]** - [你的学校]  
-  [年份]
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-## 工作经历
+# Header 1
 
-### [当前职位/公司]
-- **职位**: [你的职位]
-- **职责**:
-  - [职责1]
-  - [职责2]
-  - [职责3]
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-### [以前职位/公司]
-- **职位**: [你的职位]
-- **职责**:
-  - [职责1]
-  - [职责2]
-  - [职责3]
+## Header 2
 
-## 技能
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
 
-- **编程语言**: [Python, C++, etc.]
-- **工具与技术**: [Git, Docker, etc.]
-- **其他**: [沟通技巧, 项目管理, etc.]
+### Header 3
 
-## 兴趣爱好
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
 
-- [爱好1]
-- [爱好2]
-- [爱好3]
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
 
-## 联系方式
+#### Header 4
 
-- **邮箱**: [你的邮箱]
-- **LinkedIn**: [你的LinkedIn链接]
-- **GitHub**: [你的GitHub链接]
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
 
-## 其他
+##### Header 5
 
-- **语言能力**: [中文, 英文, etc.]
-- **荣誉与奖项**: [奖项1, 奖项2]
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
